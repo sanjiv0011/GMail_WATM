@@ -414,3 +414,30 @@ java.net.SocketException: Connection reset
 17:00:44.274 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name is >>Drafts and address is >> //div[contains(@class,'aim')]//*[text()='Snoozed']
 17:00:44.849 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicked on button >> Drafts
 17:00:45.181 [main] INFO  com.gmail.testCases.TC_Home - Driver shutdown
+17:35:53.518 [main] INFO  com.gmail.testCases.TC_Home - Browser and Login-Logout Settings
+17:35:53.527 [main] INFO  com.gmail.testCases.TC_Home - wantToEnableDebuggerMode: true And debugger post: 9222
+17:35:53.527 [main] INFO  com.gmail.testCases.TC_Home - wantToByPassLoginLogout: true
+17:35:53.528 [main] INFO  com.gmail.testCases.TC_Home - incognitoMode: false
+17:35:53.528 [main] INFO  com.gmail.testCases.TC_Home - headerLessBrowsing: false
+17:35:53.528 [main] INFO  com.gmail.testCases.TC_Home - wantToBlockAdsAndNotifications: false
+17:35:53.530 [main] INFO  com.gmail.testCases.TC_Home - Base class started...
+17:35:53.584 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
+17:35:53.585 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+17:35:56.619 [main] INFO  com.gmail.testCases.TC_Home - Chrome driver selected
+17:36:06.205 [main] INFO  com.gmail.testCases.TC_Home - Login page started with Debugger mode
+17:36:06.247 [main] INFO  com.gmail.testCases.TC_Home - Maximize the window
+17:36:06.269 [main] INFO  com.gmail.testCases.TC_Home - loginUserType: user
+17:36:07.069 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: checkMenus
+17:36:07.072 [main] INFO  com.gmail.utilities.ClickOnAnyButton - totalButton: 5
+17:36:07.074 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name is >>Inbox and address is >> //div[contains(@class,'aim')]//*[text()='Inbox']
+17:36:09.035 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicked on button >> Inbox
+17:36:09.246 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name is >>Starred and address is >> //div[contains(@class,'aim')]//*[text()='Starred']
+17:36:10.527 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicked on button >> Starred
+17:36:10.743 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name is >>Snoozed and address is >> //div[contains(@class,'aim')]//*[text()='Sent']
+17:36:11.705 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicked on button >> Snoozed
+17:36:11.909 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name is >>Sent and address is >> //div[contains(@class,'aim')]//*[text()='Drafts']
+17:36:12.559 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicked on button >> Sent
+17:36:12.771 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name is >>Drafts and address is >> //div[contains(@class,'aim')]//*[text()='Snoozed']
+17:36:13.427 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicked on button >> Drafts
+17:36:13.718 [main] WARN  com.gmail.testCases.TC_Home - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+17:36:13.800 [main] INFO  com.gmail.testCases.TC_Home - Driver shutdown

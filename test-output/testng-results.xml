@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T17:00:38 IST" name="Suite" finished-at="2024-06-27T17:00:45 IST" duration-ms="6705">
+  <suite started-at="2024-06-27T17:35:52 IST" name="Suite" finished-at="2024-06-27T17:36:13 IST" duration-ms="21127">
     <groups>
     </groups>
-    <test started-at="2024-06-27T17:00:38 IST" name="GMail" finished-at="2024-06-27T17:00:45 IST" duration-ms="6705">
+    <test started-at="2024-06-27T17:35:52 IST" name="GMail" finished-at="2024-06-27T17:36:13 IST" duration-ms="21127">
       <class name="com.gmail.testCases.TC_Home">
-        <test-method is-config="true" signature="browserSettingAndLogin(org.testng.ITestContext)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:00:38 IST" name="browserSettingAndLogin" finished-at="2024-06-27T17:00:38 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="browserSettingAndLogin(org.testng.ITestContext)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:35:53 IST" name="browserSettingAndLogin" finished-at="2024-06-27T17:35:53 IST" duration-ms="34" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@35dece42]]>
+                <![CDATA[org.testng.TestRunner@3a1f2a1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSettingAndLogin -->
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:00:38 IST" name="Setup" finished-at="2024-06-27T17:00:40 IST" depends-on-methods="com.gmail.testCases.BaseClass.browserSettingAndLogin" duration-ms="2198" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:35:53 IST" name="Setup" finished-at="2024-06-27T17:36:06 IST" depends-on-methods="com.gmail.testCases.BaseClass.browserSettingAndLogin" duration-ms="12720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="Login(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:00:41 IST" name="Login" finished-at="2024-06-27T17:00:41 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Login(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:36:06 IST" name="Login" finished-at="2024-06-27T17:36:06 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,11 +40,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="test_HomePageElement()[pri:1, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:00:41 IST" name="test_HomePageElement" finished-at="2024-06-27T17:00:45 IST" duration-ms="4039" status="PASS">
+        <test-method signature="test_HomePageElement()[pri:1, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:36:06 IST" name="test_HomePageElement" finished-at="2024-06-27T17:36:13 IST" duration-ms="7365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_HomePageElement -->
-        <test-method is-config="true" signature="Logout(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:00:45 IST" name="Logout" finished-at="2024-06-27T17:00:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Logout(java.lang.String)[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:36:13 IST" name="Logout" finished-at="2024-06-27T17:36:13 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:00:45 IST" name="Teardown" finished-at="2024-06-27T17:00:45 IST" depends-on-methods="com.gmail.testCases.BaseClass.Logout" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.gmail.testCases.TC_Home@328cf0e1]" started-at="2024-06-27T17:36:13 IST" name="Teardown" finished-at="2024-06-27T17:36:13 IST" depends-on-methods="com.gmail.testCases.BaseClass.Logout" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
