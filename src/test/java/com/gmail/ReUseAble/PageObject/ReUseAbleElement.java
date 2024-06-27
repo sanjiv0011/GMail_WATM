@@ -1194,7 +1194,7 @@ public class ReUseAbleElement {
 	// METHODS=====USE THIS METHODS IF AND ONLY IF TIME PICKRE FAILED TO PICK THE
 	// TIME======//
 
-	// ALARTS ADDRESS AND ACTIONS METHODS, JKL
+	// ALARTS ADDRESS AND ACTIONS METHODS, GMAIL
 	public String alertAddress_RU = "//div[@role='alert']";
 	String alertMessageContent_RU;
 

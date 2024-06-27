@@ -13,16 +13,16 @@
   </listeners>
   <test thread-count="1" name="GMail(failed)">
     <classes>
-      <class name="com.gmail.testCases.TC_Home">
+      <class name="com.gmail.testCases.TC_InboxPage">
         <methods>
-          <include name="test_HomePageElement"/>
+          <include name="test_DelteEmails"/>
           <include name="Login"/>
           <include name="Logout"/>
           <include name="Teardown"/>
           <include name="browserSettingAndLogin"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- com.gmail.testCases.TC_Home -->
+      </class> <!-- com.gmail.testCases.TC_InboxPage -->
     </classes>
   </test> <!-- GMail(failed) -->
 </suite> <!-- Failed suite [Suite] -->

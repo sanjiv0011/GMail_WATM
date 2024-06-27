@@ -3,7 +3,7 @@ package com.gmail.pageObject.pageLocators;
 public class PL_LoginPage {
 
 	public static final String addressButtonSingIn = "(//a[normalize-space()='Sign in'])[1]";
-	public static final String addressAlreadyLoginEmail = "(//div[contains(text(),'@gmail.com')])[1]";
+	public static final String addressAlreadyLoginEmail = "(//span[@role='checkbox'])[3]";
 	public static final String addressFieldEmail= "(//input[@id='identifierId'])[1]";
 	public static final String addressFieldPassword = "(//input[@name='Passwd'])[1]";
 	public static final String addressButtonNext = "//span[contains(text(),'Next')]";
