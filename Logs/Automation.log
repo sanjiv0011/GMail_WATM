@@ -1,0 +1,18 @@
+16:34:22.710 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: viva.beer@gmail.com
+16:34:22.763 [main] INFO  com.jkl.utilities.FindAndClickOnThreeDotButtonInGridView - 1
+16:34:22.785 [main] INFO  com.jkl.utilities.FindAndClickOnThreeDotButtonInGridView - 2
+16:34:24.787 [main] INFO  com.jkl.utilities.FindAndClickOnThreeDotButtonInGridView - 3
+16:34:24.811 [main] INFO  com.jkl.utilities.FindAndClickOnThreeDotButtonInGridView - Exception from findDataFromGridListAndClickOnThreeDot: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2fe4263fdf7700603a08c655ff84be5, getElementText {id=f.C9ACE31D074D40D076B62B2B7CBFEFAE.d.CCBF79AFCEDA845405ACE9A581DA4D2E.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.115, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on any (b2fe4263fdf7700603a08c655ff84be5)] -> xpath: //div[contains(@class,'flex flex-col items-start gap-2 w-full')]//a]
+Session ID: b2fe4263fdf7700603a08c655ff84be5
+16:34:24.813 [main] INFO  com.jkl.utilities.FindAndClickOnThreeDotButtonInGridView - listRowCount: 1
+16:34:24.813 [main] INFO  com.jkl.pageObject.PO_VendorsPage - Item found in row number: 1
+16:34:24.833 [main] INFO  com.jkl.actions.Action_Archive - Action_Edit caller method name: addOrEditVendorContact
+16:34:25.830 [main] INFO  com.jkl.testCases.TC_Vendors - Driver shutdown
