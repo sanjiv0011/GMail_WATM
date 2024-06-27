@@ -13,7 +13,7 @@ import com.gmail.ReUseAble.PageObject.ReUseAbleElement;
 
 public class Action_ClickOnAnyColumnElementBasedOnSelectedRowItem {
 	
-	public static final Logger logger = LogManager.getLogger(Action_Archive.class);
+	public static final Logger logger = LogManager.getLogger(Action_ClickOnAnyColumnElementBasedOnSelectedRowItem.class);
 	public static ReUseAbleElement ruae;
 	public static SoftAssert softAssert = new SoftAssert();
 	public static JavascriptExecutor jsExecutor;

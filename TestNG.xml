@@ -13,14 +13,22 @@
 	[user]-->
 	<parameter name="wantToByPassLoginLogout" value="true"></parameter> <!--
 	value is [true, false]-->
+	<parameter name="enableDisableDebuggerMode" value="true, 9222"></parameter> <!--
+	value is [true,flalse, integer]-->
+	<parameter name="incognitoMode" value="false"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="wantToBlockAdsAndNotifications" value="true"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="headerLessBrowsing" value="false"></parameter> <!--
+	value is [true, false]-->
 
-	<test name="JKL Assets Managemant">
+	<test name="GMail">
 
 		<classes>
 
 			<!-- =======GMAIL WEBSITE TESTING========= -->
 
-			<!--<class name="com.gmail.testCases.TC_Home" />-->
+			<class name="com.gmail.testCases.TC_Home" />
 
 			<!--	<class name="com.jkl.testCases.TC_Customers" />-->
 

@@ -30,6 +30,12 @@ public class ReadConfigFiles {
 		return url;
 	}
 	
+	public String getApplicationUrlDebuggerMode()
+	{
+		String url =  pro.getProperty("baseUrlDebuggerMode");
+		return url;
+	}
+	
 	public String getUserEmail()
 	{
 		String userEmail = pro.getProperty("userEmail");

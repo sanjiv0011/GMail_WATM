@@ -2,17 +2,15 @@ package com.gmail.pageObject.pageLocators;
 
 public class PL_HomePage {
 
-	// ALERT MESSAGES
-	public static final String alertMsgCardAddedSuccesfully = "Card Added Successfully.";
-
-	// =========START========HOME PAGE OBJECTS=============//
-	public static final String add_tab_dashaboard = "//div[contains(@class,'sidebarCategory')]//span[contains(text(),'Dashboard')]";
-	public static final String add_tab_customer = "//div[contains(@class,'sidebarCategory')]//span[contains(text(),'Customers')]";
-	public static final String add_userlogo = "//div[@class='flex items-center gap-2']";
-	public static final String add_bnt_profile = "//li[contains(@role,'menuitem')]//div[contains(text(),'Profile')]";
-	public static final String add_bnt_settings = "//li[contains(@role,'menuitem')]//div[contains(text(),'Settings')]";
-	public static final String add_bnt_lockScreen = "//li[contains(@role,'menuitem')]//div[contains(text(),'Lock Screen')]";
-	public static final String add_bnt_logout = "//li[contains(@role,'menuitem')]//div[contains(text(),'Logout')]";
-	public static final String add_btn_yes = "//button//div[text()='Yes']";
-	public static final String add_btn_no = "//button//div[text()='No']";
+	public static final String addressButtonCompose = "(//div[contains(text(),'Compose')])[1]";
+	public static final String addressButtonInbox = "//div[contains(@class,'aim')]//*[text()='Inbox']";
+	public static final String addressButtonStarred = "//div[contains(@class,'aim')]//*[text()='Starred']";
+	public static final String addressButtonSnoozed = "//div[contains(@class,'aim')]//*[text()='Snoozed']";
+	public static final String addressButtonSent = "//div[contains(@class,'aim')]//*[text()='Sent']";
+	public static final String addressButtonDrafts = "//div[contains(@class,'aim')]//*[text()='Drafts']";
+	public static final String addressButtonMore = "(//span[@class='CJ'][normalize-space()='More'])[1]";
+	
+	public static final String addressUserLogo = "//a[starts-with(@aria-label, 'Google Account')]";
+	public static final String addressUserAccountFrame = "(//iframe[contains(@name,'account')])[1]";
+	public static final String addressButtonLogout = "//*[contains(normalize-space(),'Sign out')]";
 }

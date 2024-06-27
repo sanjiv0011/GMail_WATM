@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="wantToBlockAdsAndNotifications" value="true"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="incognitoMode" value="false"/>
+  <parameter name="enableDisableDebuggerMode" value="true, 9222"/>
+  <parameter name="headerLessBrowsing" value="false"/>
+  <parameter name="loginUserType" value="user"/>
+  <parameter name="wantToByPassLoginLogout" value="true"/>
+  <listeners>
+    <listener class-name="com.gmail.utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="1" name="GMail(failed)">
+    <classes>
+      <class name="com.gmail.testCases.TC_Home">
+        <methods>
+          <include name="test_HomePageElement"/>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="Teardown"/>
+          <include name="browserSettingAndLogin"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.gmail.testCases.TC_Home -->
+    </classes>
+  </test> <!-- GMail(failed) -->
+</suite> <!-- Failed suite [Suite] -->
