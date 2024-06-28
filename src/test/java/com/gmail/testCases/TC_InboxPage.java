@@ -24,14 +24,18 @@ public class TC_InboxPage extends BaseClass {
 	public ClickOnAnyButton clickOnAnyButton = new ClickOnAnyButton();
 
 	// VARIABLES
-	String searchKey = "instagram";
+	String searchKey = "Postman Community";
+	String EmailSenderName = searchKey;
+	int searchKeyColumnIndex = 1;
+	boolean wantToGetMatchedRecords = true;
 
 
 	// TO DELETE EMAILS
 	@Test(priority = 1)
 	public void test_DelteEmails() throws Throwable {
 		po_inboxPage = callMeBeforePerformAnyAction();
-		po_inboxPage.deleleEmails(searchKey);
+		po_inboxPage.deleleEmails(EmailSenderName, searchKey,
+				 searchKeyColumnIndex,  wantToGetMatchedRecords);
 	}
 
 	// CALL ME IN EVERY @TEST METHODS EXCEPT LOGIN AND LOGOUT
