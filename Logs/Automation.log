@@ -1,0 +1,26 @@
+19:01:44.769 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+19:01:44.796 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+19:01:44.797 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+19:01:44.797 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+19:01:44.799 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+19:01:44.799 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
+19:01:44.804 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+19:01:44.910 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
+19:01:44.911 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:01:48.518 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+19:01:57.803 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+19:01:57.822 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+19:01:57.927 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+19:01:58.117 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+19:01:58.118 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+19:01:59.404 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+19:02:04.872 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Postman Community
+19:02:06.896 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+19:02:06.897 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+19:02:07.713 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+19:02:08.786 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+19:02:08.787 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+19:02:09.682 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+19:02:09.723 [main] INFO  com.gmail.pageObject.PO_InboxPage - No more mail present and isNextButtonEnabled: false
+19:02:09.774 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+19:02:09.839 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
