@@ -28,9 +28,9 @@
 
 			<!-- =======GMAIL WEBSITE TESTING========= -->
 
-			<class name="com.gmail.testCases.TC_Home" />
+			<!--<class name="com.gmail.testCases.TC_Home" />-->
 
-			<!--	<class name="com.jkl.testCases.TC_Customers" />-->
+				<class name="com.gmail.testCases.TC_InboxPage" />
 
 		</classes>
 

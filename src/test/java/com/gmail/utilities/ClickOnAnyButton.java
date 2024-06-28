@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,6 +17,8 @@ public class ClickOnAnyButton {
 	public Logger logger = LogManager.getLogger(getClass());
 	public WebDriverWait wait;
 	public Actions action;
+	public JavascriptExecutor jsExecutor;
+	public CheckElementIsEnabled elementEnableState;
 
 	// USE THIS TO CLICK ON ANY BUTTON TYPE ELEMENTS
 	public boolean callMeToClickOnAnyButtonWithNameAndXpath(WebDriver driver, String buttonName, String xpathAddress)
@@ -27,19 +30,24 @@ public class ClickOnAnyButton {
 
 		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		action = new Actions(driver);
+		jsExecutor = (JavascriptExecutor) driver;
 
 		boolean isClickedOnButton = false;
 		try {
 			logger.info("Element name and xpath >> " + buttonName + " and >> " + xpathAddress);
 			WebElement button = driver.findElement(By.xpath(xpathAddress));
-			wait.until(ExpectedConditions.elementToBeClickable(button));
-			// button.click();
-			action.moveToElement(button).build().perform();
-			Thread.sleep(200);
-			action.moveToElement(button).click().build().perform();
-			isClickedOnButton = true;
-			logger.info("clicke on button >> " + buttonName);
-			Thread.sleep(1000);
+			if (button.isEnabled() && button.isDisplayed()) {
+
+				wait.until(ExpectedConditions.elementToBeClickable(button));
+				// button.click();
+				action.moveToElement(button).build().perform();
+				Thread.sleep(200);
+				action.moveToElement(button).click().build().perform();
+				isClickedOnButton = true;
+				logger.info("clicke on button >> " + buttonName);
+				Thread.sleep(1000);
+
+			}
 
 		} catch (Exception e) {
 			logger.info("Exception from callMeToClickOnAnyButtonWithNameAndXpath >> " + e.getMessage());
@@ -57,6 +65,7 @@ public class ClickOnAnyButton {
 
 		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		action = new Actions(driver);
+		jsExecutor = (JavascriptExecutor) driver;
 
 		boolean isClickedOnButton = false;
 		int totalButton = buttonName.length;
@@ -73,14 +82,17 @@ public class ClickOnAnyButton {
 			try {
 				logger.info("Element name is >>" + button_Lable + " and address is >> " + xpathAddress_Lable);
 				WebElement button = driver.findElement(By.xpath(xpathAddress_Lable));
-				wait.until(ExpectedConditions.elementToBeClickable(button));
-				action.moveToElement(button).build().perform();
-				Thread.sleep(200);
-				action.moveToElement(button).click().build().perform();
-				isClickedOnButton = true;
-				logger.info("clicked on button >> " + button_Lable);
-				isClickedOnButton = true;
-				Thread.sleep(200);
+				if (button.isEnabled() && button.isDisplayed()) {
+					wait.until(ExpectedConditions.elementToBeClickable(button));
+					action.moveToElement(button).build().perform();
+					Thread.sleep(200);
+					action.moveToElement(button).click().build().perform();
+					isClickedOnButton = true;
+					logger.info("clicked on button >> " + button_Lable);
+					isClickedOnButton = true;
+					Thread.sleep(200);
+
+				}
 
 			} catch (Exception e) {
 				logger.info("Exception from callMeToClickOnAnyButtonWithNameAndXpath >> " + e.getMessage());
