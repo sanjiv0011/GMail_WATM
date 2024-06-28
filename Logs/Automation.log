@@ -315,3 +315,29 @@ Session ID: 9303600d273094a020aa05ac25ca2a63
 18:03:12.179 [main] INFO  com.gmail.pageObject.PO_InboxPage - No more mail present and isNextButtonEnabled: false
 18:03:12.219 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
 18:03:12.282 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
+18:45:59.971 [main] INFO  com.gmail.testCases.TC_InboxPage - Browser and Login-Logout Settings
+18:45:59.982 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToEnableDebuggerMode: true And debugger post: 9222
+18:45:59.982 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToByPassLoginLogout: true
+18:45:59.983 [main] INFO  com.gmail.testCases.TC_InboxPage - incognitoMode: false
+18:45:59.983 [main] INFO  com.gmail.testCases.TC_InboxPage - headerLessBrowsing: false
+18:45:59.984 [main] INFO  com.gmail.testCases.TC_InboxPage - wantToBlockAdsAndNotifications: false
+18:45:59.989 [main] INFO  com.gmail.testCases.TC_InboxPage - Base class started...
+18:46:00.037 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into incognito mode
+18:46:00.038 [main] INFO  com.gmail.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:46:02.987 [main] INFO  com.gmail.testCases.TC_InboxPage - Chrome driver selected
+18:46:11.057 [main] INFO  com.gmail.testCases.TC_InboxPage - Login page started with Debugger mode
+18:46:11.085 [main] INFO  com.gmail.testCases.TC_InboxPage - Maximize the window
+18:46:11.151 [main] INFO  com.gmail.testCases.TC_InboxPage - loginUserType: user
+18:46:11.329 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:46:11.330 [main] INFO  com.gmail.utilities.ClickOnAnyButton - Element name and xpath >> Inbox Tab and >> //div[contains(@class,'aim')]//*[text()='Inbox']
+18:46:13.206 [main] INFO  com.gmail.utilities.ClickOnAnyButton - clicke on button >> Inbox Tab
+18:46:18.746 [main] INFO  com.gmail.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Postman Community
+18:46:20.776 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+18:46:20.777 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+18:46:21.743 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+18:46:22.792 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findEmailFromRowList
+18:46:22.792 [main] INFO  com.gmail.projectUtility.FindThreeDotAndClick - wantToGetMatchedRecords: true
+18:46:24.234 [main] INFO  com.gmail.pageObject.PO_InboxPage - MatchRowNumber: []
+18:46:24.285 [main] INFO  com.gmail.pageObject.PO_InboxPage - No more mail present and isNextButtonEnabled: false
+18:46:24.789 [main] WARN  com.gmail.testCases.TC_InboxPage - Exception From: Logout >> Cannot invoke "com.gmail.pageObject.PO_HomePage.UserLogout()" because "this.hp" is null
+18:46:25.124 [main] INFO  com.gmail.testCases.TC_InboxPage - Driver shutdown
