@@ -178,6 +178,7 @@ public class FindThreeDotAndClick {
 			logger.info("Given confirmationGiverValue not matched: " + searchKey);
 		}
 
+		softAssert.assertAll();
 		Thread.sleep(200);
 		if (!isThreeDotButtonPresent) {
 			return -1;
