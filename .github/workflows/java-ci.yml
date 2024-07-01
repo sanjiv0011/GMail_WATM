@@ -16,7 +16,11 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '22'
+        distribution: 'adopt'
+        java-home: 'C:\\Java\\jdk-22.0.1'  # Specify the path to your JDK installation
+
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+
     - name: Run tests
       run: mvn test
