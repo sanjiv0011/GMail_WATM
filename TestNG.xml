@@ -13,7 +13,7 @@
 	[user]-->
 	<parameter name="wantToByPassLoginLogout" value="true"></parameter> <!--
 	value is [true, false]-->
-	<parameter name="enableDisableDebuggerMode" value="true, 9222"></parameter> <!--
+	<parameter name="enableDebuggerMode" value="true, 9222"></parameter> <!--
 	value is [true,flalse, integer]-->
 	<parameter name="incognitoMode" value="false"></parameter> <!--
 	value is [true, false]-->

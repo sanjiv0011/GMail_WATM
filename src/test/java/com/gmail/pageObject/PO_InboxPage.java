@@ -98,9 +98,6 @@ public class PO_InboxPage extends ReUseAbleElement {
 				WebElement emailFound = driver.findElement(By.xpath(PL_InboxPage.addressMessageNoEmailFound));
 				isEmailFound = !(emailFound.isEnabled() && emailFound.isDisplayed());
 			} catch (Exception e) {
-//				clickOnAnyButton.callMeToClickOnAnyButtonWithNameAndXpath(driver, "Checkbox",
-//						PL_InboxPage.addressCheckboxSelect);
-//				Thread.sleep(2000);
 				if (!rowNumber.isEmpty()) {
 					for (int rowNumberCounter : rowNumber) {
 						String checkBoxFormattedAddress = "(" + PL_InboxPage.addressCheckboxList + ")["

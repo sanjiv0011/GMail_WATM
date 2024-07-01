@@ -54,10 +54,10 @@ public class BaseClass {
 	private boolean wantToBlockAdsAndNotifications;
 
 	@BeforeTest
-	public void browserSettingAndLogin(ITestContext context) {
+	public void getDataFromTestNGXMLFile(ITestContext context) {
 		logger.info("Browser and Login-Logout Settings");
 		// TO ENABLE/DISABLE DEBUGGGER MODE
-		String paramEnableDisableDebuggerMode = context.getCurrentXmlTest().getParameter("enableDisableDebuggerMode");
+		String paramEnableDisableDebuggerMode = context.getCurrentXmlTest().getParameter("enableDebuggerMode");
 		String[] debuggerModeAndPort = paramEnableDisableDebuggerMode.split(",");
 		wantToEnableDebuggerMode = Boolean.parseBoolean(debuggerModeAndPort[0].trim());
 		debuggerPort = Integer.parseInt(debuggerModeAndPort[1].trim());
@@ -88,7 +88,7 @@ public class BaseClass {
 
 	// TO SELECT THE BROWSER AND DRIVER
 	@Parameters("browser")
-	@BeforeTest(dependsOnMethods = "browserSettingAndLogin")
+	@BeforeTest(dependsOnMethods = "getDataFromTestNGXMLFile")
 	public void Setup(String br) throws InterruptedException {
 		System.out.println("Current thread name: " + Thread.currentThread().getName());
 

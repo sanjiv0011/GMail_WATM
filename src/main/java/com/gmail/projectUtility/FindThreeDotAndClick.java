@@ -224,7 +224,7 @@ public class FindThreeDotAndClick {
 
 					if (formatText.equalsIgnoreCase(searchKey)) {
 						isSearchKeyMatched = true;
-						logger.info("isSearchKeyMatched: " + isSearchKeyMatched);
+						//logger.info("isSearchKeyMatched: " + isSearchKeyMatched);
 						matchedRowCount.add(listRowCount);
 					}else {
 						unmatchedRowCount.add(listRowCount);
